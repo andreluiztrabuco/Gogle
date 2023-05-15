@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>Gogle</title>
-<!-- Created with HTML, CSS, JS, JQuery and PHP -->
+<!-- Created with HTML, CSS, JS, jQuery and PHP -->
 <script>
 console.log("Welcome to Gogle!");
 console.log("<?php echo $_SERVER["HTTP_USER_AGENT"]; ?>");
@@ -259,7 +259,7 @@ catch (Exception $e) {
 </head>
 <body>
 <div class="header">
-  <a href="/" class="logo">Gogle</a>
+  <a href="/index.php" class="logo">Gogle</a>
   <div class="header-right">
    
     <a href="https://en.wikipedia.org/wiki/PHP">Open PHP article in Wikipedia</a>
@@ -380,7 +380,7 @@ table.gsc-search-box {
 <br>
 
 <center>
-<img src="https://andreluiztrabuco.neocities.org/festisite_google.png" alt="The Gogle Foundation" width="220">
+<img src="http://localhost/2k9_logo.png" alt="Gogle Inc." width="220">
 <script async src="https://cse.google.com/cse.js?cx=50ac353e52550535f"></script>
 <div class="gcse-search"></div>
 </center>
@@ -705,7 +705,7 @@ function googleTranslateElementInit() {
 <a href='#' onclick='About();'>About</a>
 <script>
 function About() {
-alert("Gogle Search, version 1.0.0b")
+alert("Gogle Search, version 1.0.0b");
 }
 
 </script>
